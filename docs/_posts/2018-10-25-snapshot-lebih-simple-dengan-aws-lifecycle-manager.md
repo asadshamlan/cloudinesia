@@ -25,6 +25,7 @@ tags:
 - lifecycle manager
 comments: []
 image: assets/images/lifecycle-2.png
+tags: [featured]
 ---
 <p>Beberapa waktu lalu, pemilik akun AWS yang berada di regional Singapura mendapatkan satu menu baru di bawah Elastic Block Store (EBS), yaitu Lifecycle Manager.</p>
 <p>Mungkin setelah membaca ini, anda akan segera login untuk melihat apakah betul terdapat menu baru di konsol anda.</p>

@@ -22,6 +22,7 @@ tags:
 - security
 - mfa
 comments: []
+tags: [featured]
 ---
 <p>Jika anda pengguna Amazon Web Service, pemula maupun para 'sifu' pasti setuju dengan saya bahwa yang pertama kali wajib di telaah adalah Identity Access Management atau yang biasa di singkat IAM.</p>
 <p>IAM sendiri merupakan fitur paling mendasar dalam pengelolaan cloud infrastruktur mulai dari pembagian penggunaan dibawah kategori tertentu, pengelolaan grup pengguna, serta memberikan policy atau akses kontrol terhadap pengguna, grup, bahkan ke infrastuktur itu sendiri. Contohnya virtual machine mereka atau yang dikenal dengan nama EC2. Berbeda dengan layanan produk cloud amazon lainnya yang bersifat regional, IAM ditawarkan di peringkat global hal ini dikarenakan IAM merupakan kebutuhan primer bagi setiap pemilik akun dalam usaha mengamankan 'resource' infrastruktur yang digunakan. Hal ini juga didukung oleh Amazon yang mengedepankan langkah - langkah rekomendasi pengamananan akun pada saat akun sudah berhasil di buat.</p>
