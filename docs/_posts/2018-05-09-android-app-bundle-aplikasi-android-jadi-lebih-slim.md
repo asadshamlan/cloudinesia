@@ -20,6 +20,7 @@ tags:
 - android
 - android studio
 comments: []
+image: assets/images/appbundle.jpg
 ---
 <p>Di hari pertama I/O, sesi developer keynote mengumumkan 3 hal penting tentang Android Development. Salah satunya tentang distribusi, yaitu Android App Bundle.</p>
 <p>Google menyadari bahwa banyaknya jumlah library serta aset - aset digital yang di perlukan apps membuat ukuran apps membesar. Dan ini berbanding lurus dengan kesediaan pengguna untuk mendownload apps atau tidak. Artinya, semakin besar ukuran apps, presentase install akan mulai menurun.</p>

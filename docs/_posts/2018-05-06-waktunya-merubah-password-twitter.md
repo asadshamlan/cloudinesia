@@ -19,6 +19,7 @@ tags:
 - bug
 - password bocor
 comments: []
+image: assets/images/twitter.jpg
 ---
 <p>Cukup mengejutkan mendengar faulty bagi perusahaan kelas dunia, salah satu major player social media yaituTwitter.</p>
 <p>Twitter dalam akun resmi Twitternya ( I know, right?) Berbesar hati menyampaikan tentang bug yang terdapat di aplikasi twitter yaitu tentang munculnya password tak ter enkrip (unmasked password) di dalam internal log. Berikut cuitan dari akun resmi mereka.</p>

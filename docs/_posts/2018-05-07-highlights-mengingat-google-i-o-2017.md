@@ -21,6 +21,7 @@ tags:
 - conference
 - developer
 comments: []
+image: assets/images/io.jpg
 ---
 <p>Sebelum kaum developer 'nongkrongin' Google I/O tahun ini, ada baiknya kita lihat highlights dari I/O events tahun lalu. Highlights video di atas mungkin bisa membantu prediksi kita tentang "What would happen tomorrow".</p>
 <p>Berdasarkan video highlights diatas, Google mengumumkan beberapa hal:</p>

@@ -21,6 +21,7 @@ tags:
 - cloud vs onprem
 comments: []
 tags: [featured]
+image: assets/images/motherboard.jpg
 ---
 <p>Seiring pesatnya perkembangan pengadopsian cloud computing, pertanyaan seputar perbandingan ini cukup banyak dilontarkan oleh para praktisi IT atau yang sebidang dengannya. Pasalnya, perkembangan yang pesat terkadang menimbulkan ketidaknyamanan bagi para fanatis on prem (baca: on premise system). Fenomena tersebut tidak hanya terjadi dalam bidang IT khususnya cloud computing, pada umumnya perubahan memang tidak pernah nyaman. Tetapi bicara tentang perubahan atau perkembangan pesat yang di alami oleh praktisi IT dalam rangka perlunya transformasi bisa dibilang cukup over. Hal ini disebabkan prinsip dari cloud computing sendiri yang notabene bersifat "Agile" (baca: lincah).</p>
 <p>Beberapa dari pembaca - apalagi yang sudah berkecimpung dalam implementasi cloud computing - akan setuju dengan saya bahwa cloud=agile. Thats it!</p>

@@ -22,6 +22,7 @@ tags:
 - durability
 comments: []
 tags: [featured]
+image: assets/images/s3.png
 ---
 <p>Merujuk kembali ke durabilitas serta availability yang tinggi, S3 adalah layanan penyimpanan berbasis objek dari Amazon Web Service yang paling diminati dan paling tinggi tingkat penggunaannya dibanding kompetitor baik sebagai metode penyimpanan data aplikasi maupun sebagai tempat pemrosesan data untuk analytics.</p>
 <p>Amazon S3 (Simple Storage Service) mempunyai empat jenis layanan penyimpanan yang berbeda, di klasifikasikan menurut frekuensi penggunaan serta kebutuhan redundancy.</p>

@@ -19,6 +19,7 @@ tags:
 - aws
 comments: []
 tags: [featured]
+image: assets/images/LightSail.png
 ---
 <p>Amazon Web Service (disingkat AWS) mempunyai lebih dari seratus jenis servis berbasis cloud untuk publik. Salah satunya adalah Amazon Lightsail.</p>
 <p>Amazon Lightsail adalah sub servis dari AWS khusus untuk menghandle kebutuhan website atau apps berskala rata rata ringan hingga ke berat sekalipun. Walaupun mampu menghandle apps kelas berat namun ramai dikalangan praktisi IT menggunakan Lightsail untuk apps ringan seperti wordpress atau nodejs. Varian biaya juga tersedia mulai dari 5 dollar hingga ke 80 dollar perbulan tergantung spesifikasi yang anda pilih.</p>

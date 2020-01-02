@@ -19,6 +19,7 @@ tags:
 - Google News
 - AI
 comments: []
+image: assets/images/google-news.jpg
 ---
 <p>Salah satu topik yang juga dibahas pada saat Google I/O berlangsung adalah Google News. Semenjak awal kehadirannya 15 tahun lalu, Google News menyajikan puluhan ribu konten berita dari seluruh dunia secara cepat. Namun Google merasa ada yang kurang yaitu apakah sudah terdistribusi dan terorganisir secara tepat?</p>
 <p>Minggu ini pengguna Google News akan mendapatkan update yang cukup besar karena Google 'menyuntikkan' AI (Artificial Intelligence) serta ML (Machine Leaening) dalam aplikasi Google News. Dengan mengadopsi AI/ML, Google News mampu memberikan konten yang paling relevan dengan anda melingkupi lokasi, kegemaran, serta 'interes' anda.</p>

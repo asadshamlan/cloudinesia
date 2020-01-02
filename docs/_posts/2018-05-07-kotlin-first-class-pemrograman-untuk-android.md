@@ -22,6 +22,7 @@ tags:
 - android studio
 - io17
 comments: []
+image: assets/images/kotlin.png
 ---
 <div>Kotlin adalah bahasa pemrograman baru yang di desain oleh tim JetBrains, perusahaan asal Russia yang juga merupakan pengembang IDE (Integrated Development Environment) resmi Android yaitu Android Studio. Kotlin pertama kali di release pada tahun 2011 tetapi mulai di 'open-source' kan pada tahun 2012 dibawah MIT License.</div>
 <div></div>

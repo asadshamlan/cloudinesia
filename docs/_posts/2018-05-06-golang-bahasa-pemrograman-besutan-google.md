@@ -20,6 +20,7 @@ tags:
 - server side
 comments: []
 tags: [featured]
+image: assets/images/golang.jpg
 ---
 <div class="gj s2" role="list">
 <div class="ap s2" tabindex="0" role="listitem" aria-expanded="true" aria-selected="false" data-msg-id="#msg-a:r1959856742835001165" data-msg-id-qs="qs-msg-a-r1959856742835001165">

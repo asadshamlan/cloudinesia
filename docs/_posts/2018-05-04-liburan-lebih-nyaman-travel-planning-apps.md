@@ -21,6 +21,7 @@ tags:
 - plan
 - apps
 comments: []
+image: assets/images/liburan.jpg
 ---
 <p><span style="font-weight: 400;">Di zaman berkembangnya teknologi telefon pintar (baca: smartphone), hampir 90% aktifitas harian kita amat sangat bergantung kepada smartphone. Dari aktifitas menyangkut pekerjaan seperti mengirim email atau membuat dokumen hingga yang paling mudah seperti memilih tempat makan. Semua aktifitas sehari - hari kita semakin di permudah dengan adanya aplikasi - aplikasi yang tersedia di dalam smartphone kita. Tidak terkecuali kegiatan perencanaan perjalanan atau liburan kita.</span></p>
 <p><span style="font-weight: 400;">Akses untuk mengunjungi tempat - tempat yang bahkan tidak pernah kita dengar sebelumnya pun menjadi lebih mudah dengan adanya tiket pesawat low-cost (LCC) yang notabene ber tarif murah. Fenomena ini di ikuti dengan maraknya penawaran paket - paket wisata yang kemudian memberikan kemudahan serta kenyamanan bagi traveler diluar sana. Bagi pengguna, mungkin bepergian ke tempat baru bisa menjadi faktor ketidak nyamanan saat bepergian apabila tidak di bekali dengan informasi yang cukup. Apa yang sebaiknya di persiapkan? Jawabannya adalah Perencanaan atau Planning.</span></p>

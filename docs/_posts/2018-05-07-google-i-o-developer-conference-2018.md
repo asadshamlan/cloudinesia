@@ -20,6 +20,7 @@ tags:
 - events
 - io18
 comments: []
+image: assets/images/io-social-banner.png
 ---
 <p>Para developer mungkin sudah menanti - nanti acara tahunan Google yang spesial untuk para developer di luar sana. <a href="https://events.google.com/io/">Google I/O</a> tahun ini akan resmi dibuka pada 08 Mei 2018 (besok) hingga 10 Mei 2018. Selama 3 hari developer akan mengikuti berbagai program yang sudah di agenda kan oleh Google (lihat agenda selengkapnya <a href="https://events.google.com/io/schedule/?section=agenda">disini</a>). Google, dalam cuitannya menyampaikan tentang excitement mereka menyambut I/O tahun ini dan langsung mendapat sambutan yang meriah dari para developer di luar sana.</p>
 <blockquote class="twitter-tweet" data-lang="en">

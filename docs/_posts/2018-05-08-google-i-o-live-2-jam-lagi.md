@@ -19,8 +19,8 @@ tags:
 - google
 - io18
 - conference
-- i
 comments: []
+image: assets/images/io-social-banner.png
 ---
 <p>Bagaimana pembaca cloudinesia sekalian udah siap-siap mantengin Google I/O tahun ini belum? Kalau belum, kamu berada di tempat yang tepat.</p>
 <p>Dua jam lagi kita sudah bisa stay tune di konferens I/O 2018 yang di adakan di Google Amphiteather. Untuk pembaca, pastikan kalian mengunjungi <a href="https://events.google.com/io">official I/O website</a> melalui smart phone. Setelah website terbuka Google akan memberikan prompt (kotak dialog) untuk menambah halaman sebagai shortcut di home screen kalian. Sangat bermanfaat untuk shortcut ya.</p>

@@ -20,6 +20,7 @@ tags:
 - paas
 - Featured
 comments: []
+image: assets/images/laptop.jpg
 ---
 <p>Apa yang pertama kali terbersit di dalam pikiran kita sewaktu mendengar kata "Cloud Computing"?. Berhitung di awan? Komputer di atas langit? Atau langsung mendongak ke atas menghadap langit? Well, bukan guys. Dan bukan juga data bertebaran di atas awan ya pastinya.</p>
 <p>Cloud computing di definisikan sebagai pendistribusian komputasi baik berupa server, storage, peralatan networking, perangkat lunak, dan lain sebagainya, melalui <em><strong><a href="https://azure.microsoft.com/en-in/overview/what-is-cloud-computing/">internet.</a></strong></em><span style="text-decoration: underline;"> </span>Perhatikan kata "internet". Asosiasi perkataan cloud di dalam bidang computing atau computer science semata-mata karena semua komponen di atas di distribusikan sebagai servis yang dapat di operasikan melalui internet. Simply put cloud = internet.</p>
