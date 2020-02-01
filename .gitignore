@@ -1,4 +1,4 @@
-output
-post_backup
+output/
+post_backup/
 command
 wp.xml
