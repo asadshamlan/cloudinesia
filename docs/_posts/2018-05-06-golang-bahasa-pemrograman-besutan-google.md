@@ -46,7 +46,9 @@ image: assets/images/golang.jpg
 <li dir="auto"><a href="https://kubernetes.io/">Kubernetes</a>: Platform untuk manajemen container</li>
 </ul>
 <p>Apasih istimewanya Golang? Menurut beberapa sumber yang sudah menggunakan Golang at least di beberapa bagiannya, Go lang memiliki keistimewaan handling HTTP request yang dapat dikatakan 2 atau 3 kali lebih cepat dibanding node atau Java. Simak carta perbandingan HTTP request dibawah.</p>
-<p><img class="size-medium wp-image-1911 aligncenter" src="http://localhost/wordpress/wp-content/uploads/2018/05/benchmarks-300x136.png" alt="golang http request" width="300" height="136" /></p>
+
+![Golang Http Request](/assets/images/benchmarks.png)
+
 <p>Menarik bukan? Mungkin golang adalah bahasa pemrograman masa depan. Maksudnya dengan kualitas seperti ini, mungkin dapat bertahan hingga beberapa tahun (atau puluhan tahun mungkin?) kedepan. Atau bahasa kerennya "Future Proof".</p>
 </div>
 </div>
