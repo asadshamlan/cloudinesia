@@ -16,7 +16,7 @@ tags:
 - SSG
 - Forestry
 comments: []
-image: docs/assets/images/forestry.png
+image: assets/images/forestry.png
 
 ---
 We all know Netlify is a good platform to host your static site. Being famous for JAM stack. For those who play around in Static Site Generator technology, such as Jekyll, Hugo, etc. Netlify is rather close friend. 
