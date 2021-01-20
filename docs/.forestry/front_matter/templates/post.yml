@@ -1,0 +1,43 @@
+---
+label: post
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: status
+  label: status
+- type: text
+  name: title
+  label: title
+- type: text
+  name: author
+  label: author
+- type: textarea
+  name: excerpt
+  label: excerpt
+- type: number
+  name: wordpress_id
+  label: wordpress_id
+- type: text
+  name: wordpress_url
+  label: wordpress_url
+- type: datetime
+  name: date
+  label: date
+- type: datetime
+  name: date_gmt
+  label: date_gmt
+- type: list
+  name: categories
+  label: categories
+- type: list
+  name: tags
+  label: tags
+- type: list
+  name: comments
+  label: comments
+- type: file
+  name: image
+  label: image
