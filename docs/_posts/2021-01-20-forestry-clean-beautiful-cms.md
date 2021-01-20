@@ -1,7 +1,7 @@
 ---
 layout: post
 status: publish
-title: 'FORESTRY: Clean & Beautiful CMS'
+title: 'FORESTRY: Clean & Beautiful git-based CMS'
 author: asadshamlan
 excerpt: ''
 wordpress_id: 
