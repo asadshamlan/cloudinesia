@@ -41,3 +41,5 @@ fields:
 - type: file
   name: image
   label: image
+pages:
+- docs/_posts/forestry-clean-beautiful-cms.md
