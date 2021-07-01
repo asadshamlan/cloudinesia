@@ -28,7 +28,7 @@ The new member in town dubbed as "modern, fast (high-performance), web framework
 
 I have been using this in few of my work in automating some infrastructure related projects. And I can say that learning FastAPI is even easier than Flask. Also because of [type hints](https://fastapi.tiangolo.com/python-types/), you will feel the breeze of higher accuracy in code completion while you type. Quoting an example from its docs:
 
-![](https:://cloudinesia.com/assets/images/carbon.png)
+![](https://cloudinesia.com/assets/images/carbon.png)
 
 And while trying to continue using it for other project and refer to the docs for help, I found out another interesting feature which is called [Background Task](https://fastapi.tiangolo.com/tutorial/background-tasks/). Background Task is definitely what you need when you need to perform some non-time-critical operation. In a way, it adopts the asynchronous way of handling a task, in a slightly different manner. You return a response containing acknowledgement and then perform the operation in the background.Certain scenarios from the docs are as follow:
 
