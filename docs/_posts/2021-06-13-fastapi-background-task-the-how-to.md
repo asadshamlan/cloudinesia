@@ -28,13 +28,7 @@ The new member in town dubbed as "modern, fast (high-performance), web framework
 
 I have been using this in few of my work in automating some infrastructure related projects. And I can say that learning FastAPI is even easier than Flask. Also because of [type hints](https://fastapi.tiangolo.com/python-types/), you will feel the breeze of higher accuracy in code completion while you type. Quoting an example from its docs:
 
-```python
-def get_full_name(first_name: str, last_name: str):
-    full_name = first_name.title() + " " + last_name.title()
-    return full_name
-
-print(get_full_name("john", "doe"))
-```
+![](assets/images/carbon.png)
 
 And while trying to continue using it for other project and refer to the docs for help, I found out another interesting feature which is called [Background Task](https://fastapi.tiangolo.com/tutorial/background-tasks/). Background Task is definitely what you need when you need to perform some non-time-critical operation. In a way, it adopts the asynchronous way of handling a task, in a slightly different manner. You return a response containing acknowledgement and then perform the operation in the background.Certain scenarios from the docs are as follow:
 
@@ -47,24 +41,7 @@ In my case for instance, I've built a Blob Trigger-based function in Azure that 
 
 Now, the one requirement that I need is to be able to duplicate the blob to different container and set the blob tier as Archive. This is definitely not a time-critical operation. I can basically let it runs even in the next few hours. And I probably can just build one more function to handle that, but do I need to? Not anymore. Background Task came to the rescue:
 
-```python
-    def duplicate_blob(blobName: str, blobTier=""):
-    	# some operations here
-    	# copy blob to different container
-        # set tier to Archive
-    	
-    
-    @app.post("/uploadfiles/")
-    async def create_upload_files(request: Request, files: List[UploadFile] = File(...), background_tasks: BackgroundTasks):
-        for uploaded_file in files:
-            read_file = uploaded_file.file.read()
-            blob_client = blob_service_client.get_blob_client(container_name, uploaded_file.filename)
-            uploading = blob_client.upload_blob(read_file, blob_type="BlockBlob", overwrite=True)
-            logging.info(uploading)
-        background_tasks.add_task(duplicate_blob, uploaded_file.filename, blobTier="Archive")
-        return templates.TemplateResponse("uploaded.html", context={"request":request, 
-        									"files":[fname.filename for fname in files]})
-```
+![](assets/images/imagevision.png)
 
 Line #8 from the code above shows the background task usage taking function duplicate_blob to be executed with required arguments which is the blobName and blobTier.
 
