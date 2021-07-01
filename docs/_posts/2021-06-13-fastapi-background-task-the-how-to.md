@@ -45,4 +45,4 @@ Now, the one requirement that I need is to be able to duplicate the blob to diff
 
 Line #8 from the code above shows the background task usage taking function duplicate_blob to be executed with required arguments which is the blobName and blobTier.
 
-Saved me from building one more function (read: $$$$).
+Saved me from building one more function (read: "$$$").
