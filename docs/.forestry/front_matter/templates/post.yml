@@ -43,3 +43,4 @@ fields:
   label: image
 pages:
 - docs/_posts/2021-01-20-forestry-clean-beautiful-cms.md
+- docs/_posts/fastapi-background-task-the-how-to.md
