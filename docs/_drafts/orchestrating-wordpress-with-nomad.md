@@ -45,4 +45,67 @@ Like many other X-as-a-code tools, Nomad is based out of _desired state_ specifi
       }
     }
 
-Group is nothing more than a collection containing series of tasks expected to be placed in the same Nomad client in a cluster setup. Whereas task is the actual unit of work that will run the workload as per specification. Referring to the job file above, means you are expecting a single job that will run Consul (another HashiCorp's great product) downloaded from the listed URL in one client with the specified command. Once you submitted, Nomad has no choice other than allocating the job to one of the available clients.
+The ['group'](https://www.nomadproject.io/docs/job-specification/group) is nothing more than a collection containing series of tasks expected to be placed in the same Nomad client in a cluster setup. Whereas ['task'](https://www.nomadproject.io/docs/job-specification/task) is the actual unit of work that will run the workload as per specification. Referring to the job file above, means you are expecting a single job that will run [Consul](https://www.consul.io/) (another HashiCorp's great product) downloaded from the listed URL in one client with the specified command. Once you submitted, Nomad has no choice other than allocating the job to one of the available clients.
+
+**_Okay, the WordPress part, please!_**
+
+No other reason for me to choose WordPress except that I am aware of the platform, I don't have to code, and it's readily available in Docker Image.
+
+Please note that for this setup, I am only using my 9 years old MBP that would act as client and server. Please don't follow the setup for any production workload.
+
+Intention: I am expecting to have a WordPress site running with one MySQL instance and 2 WordPress instances load-balanced using Fabio.
+
+Here we will need to declare one job to run wordpress, one to run mysql, one to run Fabio, and one to run consul. The reason why to use Consul is to be able to have Service Discovery available in place so services can communicate using Consul DNS (more about this later).
+
+     Job Files:
+     consul.nomad
+     mysql.nomad
+     wordpress.nomad
+     fabio.nomad
+
+Before being able to run all these nomad jobs, be sure to download the approriate Nomad binary file and Docker runtime for your environment. Also, nomad configuration need to placed somewhere for binary to refer to when executing the **nomad** cmd. Placing in the same dir as nomad jobs would work too. If you are also using Mac, this configuration should work fine.
+
+    data_dir  = "/Users/asadshamlan/nomad/data"
+    
+    bind_addr = "0.0.0.0" # the default
+    
+    server {
+      enabled          = true
+      bootstrap_expect = 1
+    }
+    
+    client {
+      enabled = true
+      options = {
+        "driver.blacklist" = "java"
+      }
+      host_volume "mysql" {
+        path      = "/Users/asadshamlan/nomad/mysql-nomad/data"
+        read_only = false
+      }
+      host_volume "wordpress" {
+        path      = "/Users/asadshamlan/nomad/wordpress-nomad/data"
+        read_only = false
+      }
+    }
+    
+    plugin "raw_exec" {
+      config {
+        enabled = true
+      }
+    }
+
+The above configuration is to tell nomad the following:
+
+* Where the nomad data directory is set (store state etc.)
+* What's bind address (en0).
+* Enable server mode
+* Enable client mode
+* Enable Stateful Workflow using host-volumes
+* Enable raw_exec driver to run non-containerized consul
+
+As host volumes is enabled, be sure to create the directories as how you specified in each host volume block. Once the binary is installed and config is available, run the command to start nomad with config args to refer to.
+
+    nomad agent -config=nomad-config.hcl
+
+If you encounter host volume path related error while executing the command, check if it is related to folder permission. Otherwise, you should be good to navigate to http://localhost:4646/ui/jobs.
