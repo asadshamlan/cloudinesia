@@ -120,12 +120,12 @@ At this point, nomad should be running and ready to take up the jobs. As stated 
 4. Click Run to let Nomad schedule the job
 5. Repeat the steps for each job.
 
-<script src="[https://gitlab.com/-/snippets/2167123.js](https://gitlab.com/-/snippets/2167123.js "https://gitlab.com/-/snippets/2167123.js")"></script>
+<script src="https://gitlab.com/-/snippets/2167123.js"></script>
 
 Check and verify if all the jobs are successfully allocated and running properly. All with the green running status as shown below:
 
-![](assets/images/screenshot-2021-08-26-at-3-02-01-pm.png)
+![](https://cloudinesia.com/assets/images/screenshot-2021-08-26-at-3-02-01-pm.png)
 
 You can then try to navigate to [http://fabio.service.consul:9999/wp-admin/](http://fabio.service.consul:9999/wp-admin/ "http://fabio.service.consul:9999/wp-admin/") so you can start setting up your WordPress. You're good to go!
 
-A little bit on the Consul DNS part. As each job is automatically registered to Consul, you can resolve the <registered-service-name>.service.consul:<port>. By leveraging this Nomad-Consul integration, you can extend it further with Consul capabilities and features such as **intentions** in Service Mesh, where you can define which service is allowed to access other services. For more information, go to Consul [documentation site](https://www.consul.io/docs).
+A little bit on the Consul DNS part. As each job is automatically registered to Consul, you can resolve the <registered-service-name>.service.consul:<port>. By leveraging this Nomad-Consul integration, you can extend it further with Consul capabilities and features such as **intentions** in Service Mesh, where you can define which service is allowed to access other services. For more information, go to Consul [documentation site](https://www.consul.io/docs "documentation site").
