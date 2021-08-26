@@ -21,7 +21,7 @@ comments: []
 image: assets/images/nomad-img.png
 
 ---
-This is long overdue to be written and documented here. I've played around with [Nomad](https://www.nomadproject.io/) for quite some time but haven't had the time to write about it. 
+This is long overdue to be written and documented here. I've played around with [Nomad](https://www.nomadproject.io/) for quite some time but haven't had the time to write about it.
 
 Nomad is a workload orchestration platform born out of HashiCorp. Workload as a choice of word is intended as Nomad is capable to also orchestrate non-containerized workloads, such as Java, raw_exec, etc. In Nomad's term, this is called 'task driver' (you can refer to the list of driver [here](https://www.nomadproject.io/docs/drivers). Nomad is a single binary installation and can be configured as a client or server. To read further, HashiCorp did a great job documenting the architecture overview [here](https://www.nomadproject.io/docs/internals/architecture).
 
@@ -104,8 +104,18 @@ The above configuration is to tell nomad the following:
 * Enable Stateful Workflow using host-volumes
 * Enable raw_exec driver to run non-containerized consul
 
-As host volumes is enabled, be sure to create the directories as how you specified in each host volume block. Once the binary is installed and config is available, run the command to start nomad with config args to refer to.
+As host volumes are enabled, be sure to create the directories as how you specified in each host volume block. Once the binary is installed and config is available, run the command to start nomad with config args to refer to.
 
     nomad agent -config=nomad-config.hcl
 
-If you encounter host volume path related error while executing the command, check if it is related to folder permission. Otherwise, you should be good to navigate to http://localhost:4646/ui/jobs.
+If you encounter host volume path-related error while executing the command, check if it is related to folder permission. Otherwise, you should be good to navigate to http://localhost:4646/ui/jobs.
+
+At this point, nomad should be running and ready to take up the jobs. As stated above, you will need to submit four different jobs (Consul, MySQL, WordPress, and Fabio). Lets start with the first job and then repeat the steps for the remaining jobs.
+
+1. From the UI, navigate to this URL: [http://localhost:4646/ui/jobs/run]()
+2. Fill in Job Definitions with nomad job file (listed below)
+3. Click Plan to review
+4. Click Run to let Nomad schedule the job
+5. Repeat the steps for each job.
+
+<script src="[https://gitlab.com/-/snippets/2167123.js](https://gitlab.com/-/snippets/2167123.js "https://gitlab.com/-/snippets/2167123.js")"></script>
