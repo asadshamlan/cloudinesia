@@ -3,11 +3,13 @@ layout: post
 status: publish
 title: Orchestrating Wordpress with Nomad
 author: asadshamlan
-excerpt: ''
+excerpt: Nomad is a workload orchestration platform born out of HashiCorp. Workload
+  as a choice of word is intended as Nomad is capable to also orchestrate non-containerized
+  workloads, such as Java, raw_exec, etc.
 wordpress_id: 
 wordpress_url: ''
-date: 2021-08-15 11:00:00 +0800
-date_gmt: 2021-08-15 11:00:00 +0800
+date: 2021-08-26 11:00:00 +0800
+date_gmt: 2021-08-26 11:00:00 +0800
 categories:
 - Containerization
 - Featured
